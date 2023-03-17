@@ -3,7 +3,7 @@ name: Must run on a custom runner
 on: push
 
 jobs:
-  init:
+  build:
     runs-on: self-hosted
     steps:
       -run: echo "disys workflow created"
