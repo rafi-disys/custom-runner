@@ -6,5 +6,6 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      -run: echo "disys workflow created"
-      -run: echo $HOSTNAME
+      - run: echo "disys workflow created"
+      - run: echo $HOSTNAME
+
